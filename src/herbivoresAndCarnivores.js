@@ -46,20 +46,6 @@ class Carnivore extends Animal {
   }
 }
 
-const deer = new Herbivore('Bembi');
-const panther = new Carnivore('Bagira');
-const lion = new Carnivore('King');
-const rabbit = new Herbivore('Max');
-
-lion.bite(deer);
-panther.bite(lion);
-
-panther.bite(deer);
-rabbit.hide();
-panther.bite(rabbit);
-
-// console.log(Animal.alive)
-
 module.exports = {
   Animal,
   Herbivore,
